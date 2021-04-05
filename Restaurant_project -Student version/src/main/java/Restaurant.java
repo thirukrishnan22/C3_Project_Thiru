@@ -71,6 +71,8 @@ public class Restaurant {
                 +"Menu:"+"\n"+getMenu());
 
     }
+ 
+    //adding order value
     public void ordervalue(List<Item> ordered){
         int  sum =0;
         for (int i = 0; i < ordered.size(); i++){
